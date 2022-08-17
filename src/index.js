@@ -18,14 +18,11 @@ function prepend(numInputArray, stringInputArray) {
     for (var i = 0; i < wordsArray.length; i++) {
         var inputString = wordsArray[i];
         var spacesNumber = numSpaces[i];
-        console.log(inputString);
-        console.log(spacesNumber);
         var spacesString = "";
         for (var i_1 = 0; i_1 < spacesNumber; i_1++) {
             spacesString += "&nbsp";
         }
         result += spacesString + inputString;
-        console.log(result);
     }
     var resultString = result;
     return resultString;

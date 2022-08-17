@@ -28,14 +28,12 @@ return String(str);
     for (let i=0; i < wordsArray.length; i++) {
         let inputString = wordsArray[i];
          let spacesNumber = numSpaces[i];
-console.log(inputString)
-console.log(spacesNumber)
+
     let spacesString: String = ""
     for (let i=0; i < spacesNumber; i++) {
         spacesString += "&nbsp";
     }
     result += spacesString + inputString;
-    console.log(result)
     }
     let resultString: String = result;
 
